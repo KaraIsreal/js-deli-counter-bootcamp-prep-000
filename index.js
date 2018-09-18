@@ -18,8 +18,8 @@ function currentLine(array){
   } else {
       var line = [];
       for (let i = 0; i < array.length; i++){
-      list.push(" " + (i+1) + ". " + array[i] + "");
+      line.push(" " + (i+1) + ". " + array[i] + "");
     }
   }
-  return "The line is currently:" + list;
+  return "The line is currently:" + line;
 }
