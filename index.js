@@ -9,6 +9,6 @@ function nowServing(deliLine){
   if (deliLine.length === 0){
     return ("There is nobody waiting to be served!");
   } else {
-    deliLine.shift()
-    return ("Currently serving  + deliLine[0].");
+    deliLine.shift(deliLine);
+    return ("Currently serving"  + ${deliLine.shift}.);
 }
