@@ -17,5 +17,6 @@ function currentLine(line){
     return "The line is currently empty.";
   } else {
     var line = ();
-  return `The line is currently: ${deliLine.push(line)}`;}
+    
+  return `The line is currently: ${(line)}`;}
 }
