@@ -16,5 +16,5 @@ function currentLine(line){
   if (deliLine.length === 0,){
     return "The line is currently empty.";
   } else {
-  return `The line is currently: 1. ${deliLine()}, 2. ${deliLine()}, 3. ${deliLine()}.`}
+  return `The line is currently: 1. .`}
 }
