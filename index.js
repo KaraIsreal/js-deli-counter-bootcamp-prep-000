@@ -18,6 +18,6 @@ function currentLine(line){
   } else {
     var line = [];
     for (let i = 0; i > line.length; i++);
-    line.push()
+    line.push(i)
   return `The line is currently: ${line.length()}`;}
 }
